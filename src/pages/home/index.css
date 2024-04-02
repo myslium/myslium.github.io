@@ -1,0 +1,184 @@
+body{
+    background-color: #fff;
+}
+
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    background-image: url('/public/assets/images/Site-background-light.webp');
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar img
+{
+    width: 90px;
+    height: auto;
+}
+
+.navbar nav 
+{
+    display: flex;
+    gap: 80px;
+}
+
+nav a 
+{
+    text-decoration: none;
+    font: 600 18px 'DM Sans';
+    color: #fff;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+.supercell a img 
+{
+    width: 100px;
+    height: auto;
+}
+
+.cont1 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    gap: 40px;
+}
+
+.cont1 img
+{
+    width: 650px;
+    height: auto;
+}
+
+.text
+{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.text h1
+{
+    font: 700 45px 'Brawl';
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 105%;                
+}
+
+.text p 
+{
+    font: 400 18px 'DM Sans';
+    line-height: 150%;
+    width: 450px;
+    height: auto;
+}
+
+.cont
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    font: 400 18px 'DM Sans';
+    line-height: 150%;
+    text-align: center;
+}
+
+.subtitle
+{
+    font: 700 25px 'Brawl';
+    line-height: 150%;
+    text-align: center;
+}
+
+.subtext
+{
+    width: 75rem;
+}
+
+.fts
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.fts img
+{
+    width: 600px;
+    height: auto;
+}
+
+.final
+{
+    background-color: #202020;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 60px 150px;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.link
+{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 30px;
+    font: 400 15px 'DM Sans';
+}
+
+.link a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link a:hover
+{
+    text-decoration: underline;
+}
+
+.link2 h3
+{
+    color: #fff;
+    font: 700 18px 'DM Sans';
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.link2 a img
+{
+    margin-right: 10px;
+    width: 20px;
+    height: auto;
+}
+
+.final .supercell a img 
+{
+    width: 40px;
+    height: auto;
+    margin: 20px 0px;
+    
+}

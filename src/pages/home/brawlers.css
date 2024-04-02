@@ -1,0 +1,122 @@
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    background-image: url('/public/assets/images/Site-background-light.webp');
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar img
+{
+    width: 90px;
+    height: auto;
+}
+
+.navbar nav 
+{
+    display: flex;
+    gap: 80px;
+}
+
+nav a 
+{
+    text-decoration: none;
+    font: 600 18px 'DM Sans';
+    color: #fff;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+.supercell a img 
+{
+    width: 100px;
+    height: auto;
+}
+
+.cont
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.cont h1
+{
+    text-align: center;
+    font: 700 45px 'Brawl';
+    color: #000;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.ft 
+{
+    background-image: url('/public/assets/images/background.webp');
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    gap: 140px;
+    padding: 20px 15px;
+}
+
+.ft img
+{
+    width: 200px;
+    height: auto;
+    position: relative;
+    left: 17em;
+}
+
+.cont1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    gap: 30px;
+}
+
+.cont1 h2
+{
+    font: 700 45px 'Brawl';
+}
+
+.cont1 p 
+{
+    width: 58rem;
+    height: auto;
+    font: 400 18px 'DM Sans';
+    line-height: 150%;
+}
+
+.fotos
+{
+    width: 55rem;
+    height: auto;
+}
+
+.fotos img
+{
+    width: 8rem;
+    height: auto;
+}
+
+table
+{
+    border: 1px solid #1d1d1d;
+    border-radius: 20px;
+    border-collapse: collapse;
+    text-align: start;
+    padding: 20px 20px;
+}
